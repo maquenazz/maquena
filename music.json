@@ -1,0 +1,20 @@
+[
+  {
+    "image": "Assets/Music/PSYCHOMANIAC.png",
+    "name": "PSYCHOMANIAC",
+    "album": "",
+    "audio2": "Assets/Music/PSYCHOMANIAC.mp3",
+    "bandcamp": "https://maquena.bandcamp.com/track/psychomaniac",
+    "soundcloud": "https://soundcloud.com/maquenaz/psychomaniac",
+    "youtube": "https://www.youtube.com/watch?v=DQGiHs7FxVA"
+  },
+  {
+    "image": "Assets/Music/MADASHELL.png",
+    "name": "MAD AS HELL",
+    "album": "",
+    "audio2": "Assets/Music/MADASHELL.mp3",
+    "bandcamp": "https://maquena.bandcamp.com/track/mad-as-hell",
+    "soundcloud": "https://soundcloud.com/maquenaz/madashell",
+    "youtube": "https://www.youtube.com/watch?v=cXUsYpMPIlc"
+  }
+]
