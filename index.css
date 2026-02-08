@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Arial";
-    src: url("Assets/Arial.ttf") format("truetype")
+    src: url("Arial.ttf") format("truetype")
 }
 
 html {
@@ -10,19 +10,19 @@ html {
 }
 
 body {
-    cursor: url('Assets/Icons/cursor.png') 24 24, auto;
+    cursor: url('cursor.png') 24 24, auto;
     color: rgb(0, 0, 0);
     min-height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(Assets/1.png);
+    background-image: url(1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center
 }
 
 a, button, input, select, textarea, [role="button"], .cursor {
-    cursor: url('Assets/Icons/cursor.png') 24 24, pointer
+    cursor: url('cursor.png') 24 24, pointer
 }
 
 body.loading::before {

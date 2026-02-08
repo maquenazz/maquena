@@ -138,10 +138,10 @@ function updateSong(AlbumCover, Title, Album) {
 function togglePlayPause() {
     if (!audio2.paused) {
         audio2.pause();
-        play2.src = "Assets/Icons/Play.png";
+        play2.src = "Play.png";
     } else {
         audio2.play();
-        play2.src = "Assets/Icons/Pause.png";
+        play2.src = "Pause.png";
     }
 }
 
@@ -168,7 +168,7 @@ fetch('music.json')
             updateSong(AlbumCover, Title, Album);
             if (wasPlaying) {
                 audio2.play();
-                play2.src = "Assets/Icons/Pause.png";
+                play2.src = "Pause.png";
             }
         });
 
@@ -192,10 +192,10 @@ fetch('music.json')
         Volume.addEventListener("click", function() {
             if (audio2.volume == 0) {
                 audio2.volume = VSlider.value / 100;
-                volume2.src = "Assets/Icons/Volume.png";
+                volume2.src = "Volume.png";
             } else {
                 audio2.volume = 0;
-                volume2.src = "Assets/Icons/Mute.png";
+                volume2.src = "Mute.png";
             }
         });
 
@@ -214,10 +214,10 @@ fetch('music.json')
         VSlider.addEventListener("input", function() {
             audio2.volume = VSlider.value / 100;
             if (audio2.volume == 0) {
-                volume2.src = "Assets/Icons/Mute.png"
+                volume2.src = "Mute.png"
             }
             else {
-                volume2.src = "Assets/Icons/Volume.png"
+                volume2.src = "Volume.png"
             }
         });
 
