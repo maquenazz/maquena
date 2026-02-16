@@ -2,6 +2,10 @@
     font-family: "Arial";
     src: url("Arial.ttf") format("truetype")
 }
+@font-face {
+    font-family: "Special Elite";
+    src: url("SpecialElite.ttf") format("truetype")
+}
 
 html {
     font-family: "Arial";
@@ -316,3 +320,4 @@ body.loading::before {
     transform: scale(1.6);
 }
 }
+
